@@ -6,7 +6,7 @@ import tflite_runtime.interpreter as tflite
 # Load the quantized model
 @st.cache_resource
 def load_model():
-    interpreter = tflite.Interpreter(model_path="model_quantized.tflite")
+    interpreter = tflite.Interpreter(model_path="model/model.tflite")
     interpreter.allocate_tensors()
     return interpreter
 
