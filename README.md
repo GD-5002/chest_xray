@@ -57,3 +57,49 @@ chest_xray/
    ```bash
    git clone https://github.com/GD-5002/chest_xray.git
    cd chest_xray
+
+⚙️ Requirements
+Python 3.9+
+
+TensorFlow Lite Runtime
+
+Streamlit
+
+NumPy, Pillow, etc.
+
+(All dependencies are listed in requirements.txt)
+
+🏥 Dataset
+The model was trained on a subset of the Chest X-ray dataset from Kaggle, containing:
+
+Normal X-rays
+
+Pneumonia-infected X-rays
+
+📊 Model Performance
+Metric	Score
+Accuracy	~95%
+Precision	High
+Recall	High
+Loss	Very Low
+
+Model evaluation was done on a separate validation set.
+
+📦 Deployment
+This app is deployed using Streamlit Cloud, and the TFLite model allows for faster, lightweight inference.
+
+👨‍💻 Author
+Dheeraj Gogula
+NIT Durgapur | ML & DL Enthusiast
+GitHub: @GD-5002
+
+🛡 Disclaimer
+This tool is intended for educational purposes only and should not be used for medical diagnosis.
+
+🌟 Show Your Support
+If you like this project, leave a ⭐ on the repo or connect with me on LinkedIn.
+
+
+---
+
+Let me know if you'd like this automatically added to your GitHub repo, or if you want a PDF version for submission!
